@@ -1,7 +1,7 @@
 div{
 /*	border:1px solid green;*/
 	margin: auto;
-	width: 750px;
+	width: 1200px;
 	}
 select{
 	margin: 20px;
@@ -92,6 +92,18 @@ button.buttom:active{
 	border:1px solid #20911a;
 	box-shadow:0 0 10px 5px #356b0b;
 	}
-h3{
-	text-decoration: #356b0b;
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
